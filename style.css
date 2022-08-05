@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header h4 {
+  font-size: 1.5rem;
+  word-spacing: 2px;
+}
+.brown {
+  color: #a10305;
+}
+header h1 {
+  font-size: 3rem;
+  word-spacing: 2px;
+}
+header h6 {
+  font-size: 1.15rem;
+  word-spacing: 2px;
+}
+.gradient {
+  background-image: linear-gradient(#c32b2b, #481212) !important;
+  color: white !important;
+}
+.clr-blue {
+  color: #424270;
+}
+.navbar li a {
+  color: white !important;
+}
+.navbar-toggler {
+  color: white !important;
+}
+.confidential {
+  transform: rotate(10deg);
+  transform-origin: left;
+}
+.q-section {
+  background: url("./img/form_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.d-f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+p {
+  margin-bottom: 0px !important;
+}
+.border-left {
+  border-left: 1px solid grey;
+}
+.border-right {
+  border-right: 1px solid grey;
+}
+.border-down {
+  border-bottom: 1px solid grey;
+}
+.bg-grey {
+  background-color: gray;
+  border-left: 15px solid #9b0b0b;
+  color: white !important;
+  margin-bottom: 3%;
+}
+.flex-center {
+  justify-content: center;
+  display: flex;
+}
+.button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 70px;
+  background-image: linear-gradient(#d73636, #971b1b);
+  padding: 2%;
+  border: none;
+  color: rgb(235 235 235);
+  box-shadow: rgba(0, 0, 0, 60%) 0px 5px 15px;
+}
+.button:before,
+.button:after {
+  border-top: 1px solid grey;
+  display: block;
+  height: 0px;
+  content: " ";
+  width: 165%;
+  position: absolute;
+  left: -47px;
+  top: -1px;
+}
+@media screen and (max-width: 1280px) {
+  .width {
+    width: 100% !important;
+  }
+  .padding {
+    padding: 2% 10% !important;
+  }
+}
+@media screen and(max-width:1050) {
+  .flex-start {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 4% !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .padding {
+    padding: 2% 1% !important;
+  }
+  .pad-bottom {
+    padding-bottom: 10%;
+    padding-top: 5%;
+  }
+  .center-text{
+    text-align: center;
+  }
+}
